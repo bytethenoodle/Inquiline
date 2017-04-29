@@ -54,7 +54,7 @@ extension RequestType {
 
   /// Returns the body's raw bytes
   public var bytes: [UInt8]? {
-    if let contentLength = contentLength, body = body {
+    if let contentLength = contentLength, let body = body {
       var body = body
       var buffer: [UInt8] = []
 

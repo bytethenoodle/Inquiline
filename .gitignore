@@ -2,3 +2,4 @@
 /Packages/
 /.build/
 *.pins
+.DS_Store
